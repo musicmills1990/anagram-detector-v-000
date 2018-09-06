@@ -16,8 +16,6 @@ def match(words)
     words.find do |array_word|
     if alph_word == array_word.split("").sort.join("")
       puts array_word
-    else
-      []
     end
   end
 end
