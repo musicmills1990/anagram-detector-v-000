@@ -11,7 +11,8 @@ end
 
 
 def match(words)
-  alph_word = word.split("").sort.join("")
+  binding.pry
+  alph_word = @word.split("").sort.join("")
     words.find do |array_word|
     if alph_word == array_word.split("").sort.join("")
       puts array_word
